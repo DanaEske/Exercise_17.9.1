@@ -82,5 +82,5 @@ if not binary_search(list_of_numbers, additional_number, 0, len(list_of_numbers)
         print(f'''Вашего числа нет списке.
 Ближайшее большее число: {n}. Его индекс: {list_of_numbers.index(n)}
 В списке нет чисел меньше.''')
-else:
-    print(f'''Индекс вашего числа в списке: {binary_search(list_of_numbers, additional_number, 0, len(list_of_numbers))}''')
+    else:
+        print(f'''Индекс вашего числа в списке: {binary_search(list_of_numbers, additional_number, 0, len(list_of_numbers))}''')
